@@ -50,6 +50,8 @@ def maincommandhandler(linkglobal):
             print("exit - Exits the program")
             print("link - Displays the current link")
             print("link-change - Changes the current link")
+            print("clear - Clears the screen")
+            print("info - Displays info about the video")
             maincommandhandler(linkglobal)
         elif command == "download":
             print("Downloading...")
